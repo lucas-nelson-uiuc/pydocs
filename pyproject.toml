@@ -1,0 +1,21 @@
+[project]
+name = "pydocs"
+version = "0.1.0"
+description = "Python package for converting code into documentation."
+readme = "README.md"
+authors = [
+    { name = "lucas-nelson-uiuc", email = "lucas.nelson.contacts@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "loguru>=0.7.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]

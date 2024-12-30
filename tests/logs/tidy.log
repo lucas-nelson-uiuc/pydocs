@@ -1,0 +1,6 @@
+1999-11-07 12:00:00 | INFO    | #> enter: TidyDataFrame[10,000 rows x 20 cols]
+1999-11-07 12:00:01 | INFO    | #> filter: removed 10 rows, 9,990 remaining (99.9%)
+1999-11-07 12:00:01 | INFO    | #> select: selected 6 columns
+1999-11-07 12:00:03 | INFO    | #> mutate: added `flag_column` (type: bool)
+1999-11-07 12:00:04 | WARNING | #> groupby: method not yet implemented
+1999-11-07 12:00:07 | INFO    | #> exit: TidyDataFrame[9,990 rows x 7 cols]
